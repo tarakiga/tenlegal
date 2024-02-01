@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home3/tenecec1/public_html/legaldept
+    - /bin/cp -r * $DEPLOYPATH
+    - /bin/rm $DEPLOYPATH/.cpanel.yml
